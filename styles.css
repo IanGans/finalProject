@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Add your desired background color here */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #004080; /* Add background color to the header */
+    color: white; /* Change text color to white for contrast */
+    padding: 20px;
+}
+
+#headerImage {
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff; /* Add background color to the form */
+    padding: 20px;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border to the fieldset */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="file"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add border to the inputs */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #004080; /* Add background color to buttons */
+    color: white; /* Change text color to white for contrast */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #003060; /* Darken button background on hover */
+}
+
+/* Theme styles */
+.light-theme {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.nature-theme {
+    background-color: #e0ffe0;
+    color: #000;
+}
+
+/* Additional styles for the generated meal plan */
+.meal-plan {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
