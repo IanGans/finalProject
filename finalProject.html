@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="header-image.png" alt="Header Image" id="headerImage"> <!-- Add your Canva header image here -->
+        <h1>Ian Gans - WEB-115 Final Project</h1>
+        <h2>Build Your Meal Plan</h2>
+    </header>
+    <form id="mealPlanForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <label for="goal">Goal:</label>
+            <input type="text" id="goal" name="goal" autocomplete="off" required>
+        </fieldset>
+        <fieldset>
+            <legend>Meal Plan</legend>
+            <div id="mealInputs">
+                <h3>Monday</h3>
+                <label for="mondayBreakfast">Breakfast:</label>
+                <input type="text" id="mondayBreakfast" name="mondayBreakfast" autocomplete="off">
+                <label for="mondaySnack1">Snack:</label>
+                <input type="text" id="mondaySnack1" name="mondaySnack1" autocomplete="off">
+                <label for="mondayLunch">Lunch:</label>
+                <input type="text" id="mondayLunch" name="mondayLunch" autocomplete="off">
+                <label for="mondaySnack2">Snack:</label>
+                <input type="text" id="mondaySnack2" name="mondaySnack2" autocomplete="off">
+                <label for="mondayDinner">Dinner:</label>
+                <input type="text" id="mondayDinner" name="mondayDinner" autocomplete="off">
+
+                <!-- Repeat for other days -->
+                <h3>Tuesday</h3>
+                <label for="tuesdayBreakfast">Breakfast:</label>
+                <input type="text" id="tuesdayBreakfast" name="tuesdayBreakfast" autocomplete="off">
+                <label for="tuesdaySnack1">Snack:</label>
+                <input type="text" id="tuesdaySnack1" name="tuesdaySnack1" autocomplete="off">
+                <label for="tuesdayLunch">Lunch:</label>
+                <input type="text" id="tuesdayLunch" name="tuesdayLunch" autocomplete="off">
+                <label for="tuesdaySnack2">Snack:</label>
+                <input type="text" id="tuesdaySnack2" name="tuesdaySnack2" autocomplete="off">
+                <label for="tuesdayDinner">Dinner:</label>
+                <input type="text" id="tuesdayDinner" name="tuesdayDinner" autocomplete="off">
+
+                <h3>Wednesday</h3>
+                <label for="wednesdayBreakfast">Breakfast:</label>
+                <input type="text" id="wednesdayBreakfast" name="wednesdayBreakfast" autocomplete="off">
+                <label for="wednesdaySnack1">Snack:</label>
+                <input type="text" id="wednesdaySnack1" name="wednesdaySnack1" autocomplete="off">
+                <label for="wednesdayLunch">Lunch:</label>
+                <input type="text" id="wednesdayLunch" name="wednesdayLunch" autocomplete="off">
+                <label for="wednesdaySnack2">Snack:</label>
+                <input type="text" id="wednesdaySnack2" name="wednesdaySnack2" autocomplete="off">
+                <label for="wednesdayDinner">Dinner:</label>
+                <input type="text" id="wednesdayDinner" name="wednesdayDinner" autocomplete="off">
+
+                <h3>Thursday</h3>
+                <label for="thursdayBreakfast">Breakfast:</label>
+                <input type="text" id="thursdayBreakfast" name="thursdayBreakfast" autocomplete="off">
+                <label for="thursdaySnack1">Snack:</label>
+                <input type="text" id="thursdaySnack1" name="thursdaySnack1" autocomplete="off">
+                <label for="thursdayLunch">Lunch:</label>
+                <input type="text" id="thursdayLunch" name="thursdayLunch" autocomplete="off">
+                <label for="thursdaySnack2">Snack:</label>
+                <input type="text" id="thursdaySnack2" name="thursdaySnack2" autocomplete="off">
+                <label for="thursdayDinner">Dinner:</label>
+                <input type="text" id="thursdayDinner" name="thursdayDinner" autocomplete="off">
+
+                <h3>Friday</h3>
+                <label for="fridayBreakfast">Breakfast:</label>
+                <input type="text" id="fridayBreakfast" name="fridayBreakfast" autocomplete="off">
+                <label for="fridaySnack1">Snack:</label>
+                <input type="text" id="fridaySnack1" name="fridaySnack1" autocomplete="off">
+                <label for="fridayLunch">Lunch:</label>
+                <input type="text" id="fridayLunch" name="fridayLunch" autocomplete="off">
+                <label for="fridaySnack2">Snack:</label>
+                <input type="text" id="fridaySnack2" name="fridaySnack2" autocomplete="off">
+                <label for="fridayDinner">Dinner:</label>
+                <input type="text" id="fridayDinner" name="fridayDinner" autocomplete="off">
+
+                <h3>Saturday</h3>
+                <label for="saturdayBreakfast">Breakfast:</label>
+                <input type="text" id="saturdayBreakfast" name="saturdayBreakfast" autocomplete="off">
+                <label for="saturdaySnack1">Snack:</label>
+                <input type="text" id="saturdaySnack1" name="saturdaySnack1" autocomplete="off">
+                <label for="saturdayLunch">Lunch:</label>
+                <input type="text" id="saturdayLunch" name="saturdayLunch" autocomplete="off">
+                <label for="saturdaySnack2">Snack:</label>
+                <input type="text" id="saturdaySnack2" name="saturdaySnack2" autocomplete="off">
+                <label for="saturdayDinner">Dinner:</label>
+                <input type="text" id="saturdayDinner" name="saturdayDinner" autocomplete="off">
+
+                <h3>Sunday</h3>
+                <label for="sundayBreakfast">Breakfast:</label>
+                <input type="text" id="sundayBreakfast" name="sundayBreakfast" autocomplete="off">
+                <label for="sundaySnack1">Snack:</label>
+                <input type="text" id="sundaySnack1" name="sundaySnack1" autocomplete="off">
+                <label for="sundayLunch">Lunch:</label>
+                <input type="text" id="sundayLunch" name="sundayLunch" autocomplete="off">
+                <label for="sundaySnack2">Snack:</label>
+                <input type="text" id="sundaySnack2" name="sundaySnack2" autocomplete="off">
+                <label for="sundayDinner">Dinner:</label>
+                <input type="text" id="sundayDinner" name="sundayDinner" autocomplete="off">
+            </div>
+        </fieldset>
+        <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+        <button type="reset">Clear Planner</button>
+        <button type="button" onclick="printMealPlan()">Print Planner</button>
+        <button type="button" onclick="downloadMealPlan()">Download Planner</button>
+    </form>
+    <script src="projectJS.js"></script>
+</body>
+</html>
